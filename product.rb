@@ -50,5 +50,5 @@ class Product
     def as_json
         {id: id, name: name, quantity: quantity, price: price}
     end
-end‹
+end
 

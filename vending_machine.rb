@@ -33,7 +33,8 @@ class VendingMachine
         elsif(product.quantity < quantity)
             raise 'Not Enough Stock'
         elsif(validate_money(price_denomination, (product.price * quantity)))
-            Product.drop(product_id, quantity, price_denomination)
+            puts Product.drop(product_id, quantity, price_denomination)
+            true
         end
     end
 
