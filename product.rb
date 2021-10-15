@@ -44,11 +44,11 @@ class Product
             product.quantity -= quantity
             change_details.each {|change_demo| MachineCurrencyStock.remove_quantity(change_demo[:value], change_demo[:qty])}
         end
-        true
+        change_details
     end
 
     def as_json
         {id: id, name: name, quantity: quantity, price: price}
     end
-end
+end‹
 
