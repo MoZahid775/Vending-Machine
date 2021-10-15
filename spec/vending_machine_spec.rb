@@ -19,7 +19,7 @@ RSpec.describe VendingMachine do
     end
 
     it 'Should allow pick' do
-        product = Product.all.first
+        product = Product.all.last
         expect(subject.pick(product.id, 1, [{'value' => 1, 'quantity' => 20}])).to eq(true)
     end
   end

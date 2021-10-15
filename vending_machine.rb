@@ -3,11 +3,11 @@ require './product'
 class VendingMachine
     def initialize
         @products = []
-        @products << Product.new(1, 'Coca Cola', 2, 2)
-        @products << Product.new(2, 'Sprite', 2, 2.5)
-        @products << Product.new(3, 'Fanta', 3, 2.70)
-        @products << Product.new(4, 'Orange Juice', 1, 3)
-        @products << Product.new(5, 'Water', 0, 3.25)
+        @products << Product.new(11, 'Coca Cola', 2, 2)
+        @products << Product.new(12, 'Sprite', 2, 2.5)
+        @products << Product.new(13, 'Fanta', 3, 2.70)
+        @products << Product.new(14, 'Orange Juice', 1, 3)
+        @products << Product.new(15, 'Water', 0, 3.25)
         
         # Initialize Coin/Amount stocks
         @currency = []
