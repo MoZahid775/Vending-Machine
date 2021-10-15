@@ -11,7 +11,7 @@ RSpec.describe Product do
 
   describe '#all' do
     it 'return all products' do
-      Product.new(2, 'Burger', 1, 20)
+      Product.new(2, 'Rum', 1, 20)
       expect(Product.all.size).to eq 2
     end
   end
