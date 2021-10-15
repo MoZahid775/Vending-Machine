@@ -24,3 +24,4 @@ RSpec.describe VendingMachine do
     end
   end
 end
+
